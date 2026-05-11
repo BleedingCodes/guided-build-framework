@@ -12,7 +12,7 @@ The Guided Build Framework exists to bridge that gap.
 
 It turns raw project ideas into smaller, testable, buildable steps so that AI becomes a guide instead of a shortcut.
 
-##Overview
+## Overview
 
 Most AI coding interactions drift toward:
 
