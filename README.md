@@ -2,7 +2,17 @@ Guided Build Framework
 
 Execution-focused AI framework for realistic project evaluation, incremental building, and hands-on learning guidance.
 
-Overview
+## Origins
+
+This framework started with an AI-assisted idea generator prompt.
+
+The idea generator helped produce project concepts, but it also revealed a problem: ideas are easy to generate, but finished builds require structure, scope, and discipline.
+
+The Guided Build Framework exists to bridge that gap.
+
+It turns raw project ideas into smaller, testable, buildable steps so that AI becomes a guide instead of a shortcut.
+
+##Overview
 
 Most AI coding interactions drift toward:
 
