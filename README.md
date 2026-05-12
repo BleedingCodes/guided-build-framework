@@ -12,14 +12,17 @@ The Guided Build Framework exists to bridge that gap.
 
 It turns raw project ideas into smaller, testable, buildable steps so that AI becomes a guide instead of a shortcut.
 
-## Start Here
+## Start Here Path
 
-Example goal:
-> "I want to build a local Python file organizer."
+1. Generate Ideas using the Idea Generator.md prompt. 
+2. Pick all the ideas that interest you many from the generated list
+3. Paste those ideas with the Idea_Stress_Test.md prompt.
+4. Decide the idea you still want to do after the evaluation. 
+5. Paste that idea so it can be wrapped as a prompt for you can start building the it.
 
 Using the Guided Build Framework:
 
-1. Stress test the idea
+1. Stress test the ideas
 2. Reduce unnecessary complexity
 3. Define the smallest useful MVP
 4. Generate a guided implementation plan
