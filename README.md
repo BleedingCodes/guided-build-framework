@@ -178,18 +178,23 @@ This significantly changes implementation behavior during long sessions.
 
 ## Repository Structure
 
-/framework
-    guided-build-method.md
+```text
+framework/
+    idea_evaluation_system.md
     idea-generator.md
 
-/examples
+examples/
     example_input_ideas.md
     example_output_evaluation.md
-    example_wrapped_prompt.md
+    generated_wrapped_prompt_example.md
 
-/docs
+
+Not yet created:
+
+docs/
     design_philosophy.md
     iteration_history.md
+```
 
 ## Example Workflow
 
