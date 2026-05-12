@@ -441,6 +441,7 @@ Default behavior:
 - ask the user to attempt it
 - wait for the user’s result
 
+
 The wrapped prompt should make implementation feel like coached construction, not code delivery.
 --------------------------------------------------
 
