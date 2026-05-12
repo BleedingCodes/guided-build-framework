@@ -1,4 +1,4 @@
-I want a completely new set of project ideas that are fundamentally different from:
+I want a completely set of project ideas that are fundamentally different involving:
 
 system monitoring
 automation engines
@@ -11,8 +11,6 @@ IMPORTANT CONSTRAINTS:
 
 Do NOT:
 
-remix previous ideas in slightly different forms
-rename the same concepts
 generate generic beginner projects
 generate fake enterprise architectures
 rely on unnecessary frameworks
@@ -45,7 +43,7 @@ non-system-focused developer tools
 
 Avoid hardware requirements.
 
-Linux-compatible only. Headless-friendly is a plus but not required.
+Linux-compatible perfered.
 
 CORE GOAL
 
