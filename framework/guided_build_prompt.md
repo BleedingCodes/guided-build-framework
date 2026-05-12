@@ -359,6 +359,21 @@ Wait for explicit user selection before:
 
 --------------------------------------------------
 
+WRAP INTENT INFERENCE RULE
+
+If the user responds by pasting or naming a single surviving idea immediately after evaluation, interpret that as implicit intent to wrap the idea.
+
+In this case:
+- proceed directly to wrapped prompt generation
+- do not ask again whether the idea should be wrapped
+
+Only ask for clarification if:
+- multiple ideas are referenced
+- the selection is ambiguous
+- the user appears undecided
+
+--------------------------------------------------
+
 WRAPPED PROMPT PURPOSE
 
 Wrapped prompts exist to create guided execution sessions.
