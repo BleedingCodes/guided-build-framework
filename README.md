@@ -16,7 +16,7 @@ It turns raw project ideas into smaller, testable, buildable steps so that AI be
 
 1. Generate Ideas using the Idea Generator.md prompt. 
 2. Pick all the ideas that interest you many from the generated list
-3. Paste those ideas with the Idea_Stress_Test.md prompt.
+3. Paste those ideas with the ieda_evaluation_system.md prompt.
 4. Decide the idea you still want to do after the evaluation. 
 5. Paste that idea so it can be wrapped as a prompt for you can start building the it.
 
@@ -31,7 +31,7 @@ Using the Guided Build Framework:
 Result:
 A smaller, finishable project with visible progress and hands-on learning.
 
-Idea Generator → Stress Test → Simplify → Guided Build Prompt → Build Loop → MVP
+Idea Generator → Idea List Evaluation → Simplify → Guided Build Prompt → Build Loop → MVP
 
 ## Who This Is For
 
