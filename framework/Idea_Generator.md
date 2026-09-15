@@ -1,3 +1,8 @@
+<!--
+CUSTOMIZE THIS FILE BEFORE USE:
+Replace the domain list below with your own areas of interest.
+The current list reflects the original author's focus (electronics/Linux tooling).
+-->
 I want a completely set of project ideas that are fundamentally different involving:
 
 system monitoring
