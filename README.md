@@ -14,11 +14,11 @@ It turns raw project ideas into smaller, testable, buildable steps so that AI be
 
 ## Start Here Path
 
-1. Generate Ideas using the Idea Generator.md prompt. 
-2. Pick all the ideas that interest you many from the generated list
-3. Paste those ideas with the idea_evaluation_system.md prompt.
-4. Decide the idea you still want to do after the evaluation. 
-5. Paste that idea so it can be wrapped as a prompt so you can start building it.
+1. Open `framework/Idea_Generator.md`. Edit the domain list at the top to match your own interests. Then paste the entire file as a **user message** in a new AI chat session.
+2. Pick all the ideas that interest you from the generated list.
+3. Open `framework/idea_evaluation_system.md`. Paste it as a **system prompt** (Custom Instructions or System field). Then send your idea list as the first user message.
+4. Decide the idea you still want to build after the evaluation.
+5. Paste that idea into the same chat so it can be wrapped as a guided build prompt, then start building.
 
 Using the Guided Build Framework:
 
@@ -64,7 +64,7 @@ The Guided Build Framework is a structured AI interaction system designed to:
 - maintain hands-on learning
 - improve project completion probability
 
-Instead of treating AI as a “generate the whole project” tool, this framework treats AI as a:
+Instead of treating AI as a "generate the whole project" tool, this framework treats AI as a:
 
 execution-focused pair-programming mentor
 
@@ -181,7 +181,7 @@ This significantly changes implementation behavior during long sessions.
 ```text
 framework/
     idea_evaluation_system.md
-    Idea-generator.md
+    Idea_Generator.md
 
 examples/
     example_input_ideas.md
