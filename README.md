@@ -188,12 +188,6 @@ examples/
     example_output_evaluation.md
     generated_wrapped_prompt_example.md
 
-
-Not yet created:
-
-docs/
-    design_philosophy.md
-    iteration_history.md
 ```
 
 ## Example Workflow
