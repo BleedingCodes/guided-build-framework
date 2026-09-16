@@ -67,114 +67,43 @@ The Guided Build Framework is a structured AI interaction system designed to:
 Instead of treating AI as a "generate the whole project" tool, this framework treats AI as a:
 
 execution-focused pair-programming mentor
+## What It Does and Why
 
-## Core Philosophy
+Most AI-assisted projects fail the same way — they expand too fast, 
+become too abstract, and stop producing visible progress. The AI 
+encourages complexity, the architecture grows, and momentum collapses 
+before anything ships.
 
-The framework prioritizes:
+This framework treats AI as an execution-focused pair-programming mentor, 
+not a code generator.
 
-- completion over sophistication
-- visible progress over elegant architecture
-- incremental expansion over massive redesigns
-- practical learning over theoretical completeness
-- sustainable momentum over speculative scalability
+It stress-tests project ideas, exposes hidden complexity, detects 
+motivation-collapse points, and ranks ideas by completion likelihood. 
+Viable ideas get converted into guided build prompts that walk you through 
+implementation incrementally — small steps, test-and-confirm loops, 
+active construction by you.
 
-The system actively discourages:
-
+What it actively suppresses:
 - premature optimization
 - architecture-heavy planning
-- generalized frameworks too early
 - plugin-system escalation
-- endless setup
 - solving future problems before they exist
 
-## What The Framework Does
+## Design Priorities
 
-The system:
+Completion over sophistication.
+Visible progress over elegant architecture.
+Hands-on learning over passive code generation.
 
-- stress-tests project ideas
-- identifies execution risks
-- exposes hidden complexity
-- detects motivation-collapse points
-- evaluates visible progress quality
-- ranks ideas by completion likelihood
-- forces MVP simplification
-- generates guided implementation prompts
-- encourages step-by-step hands-on building
+The framework frames the user as the builder and the AI as the guide. 
+That role distinction matters — it changes how implementation sessions 
+behave over time and keeps you in the loop instead of watching AI write 
+code you don't understand.
 
-## Main Goals
-
-1. Improve Completion Probability
-
-Many projects fail because they become:
-
-- too abstract
-- too ambitious
-- too architectural
-- too invisible in progress
-
-This framework attempts to constrain projects into realistically finishable forms.
-
-2. Preserve Hands-On Learning
-
-Most AI coding sessions quickly become:
-
-AI writes code while the user watches.
-
-This framework instead encourages:
-
-- guided implementation
-- small incremental steps
-- experimentation
-- debugging participation
-- active construction by the user
-
-The goal is learning through building — not passive code generation.
-
-3. Reduce Overengineering
-
-The framework aggressively suppresses:
-
-- unnecessary abstractions
-- generalized engines
-- speculative extensibility
-- framework escalation
-- architecture-first development
-
-The emphasis is:
-
-- build something working first
-
-## Key Design Concepts
-
-- Execution-First Evaluation
-
-Ideas are evaluated based on:
-
-- realistic scope
-- visible progress speed
-- setup friction
-- debugging complexity
-- iteration quality
-- completion likelihood
-
+Ideas are evaluated on execution realism: setup friction, visible progress 
+speed, debugging complexity, iteration quality, and completion likelihood. 
 Not theoretical sophistication.
 
-Guided Prompt Wrapping
-
-Instead of generating full implementations immediately, the framework creates:
-
-- incremental build sessions
-- mentor-style implementation guidance
-- test-and-confirm interaction loops
-- constrained step-by-step progress
-- Role Framing
-
-The framework intentionally frames:
-
-- the user as the builder
-- the AI as the guide
-
-This significantly changes implementation behavior during long sessions.
 
 ## Repository Structure
 
