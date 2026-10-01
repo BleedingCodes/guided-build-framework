@@ -160,4 +160,6 @@ Execution-focused AI framework for realistic project evaluation, incremental bui
 
 MIT License — see LICENSE file.
 
-Built by [MainbyteLabs](https://github.com/MR-MainbyteLabs)
+## Built by MainbyteLabs
+Technical documentation and Python tooling for electronics labs and hardware teams — developed with AI, directed and tested by a working electronics technician.
+https://github.com/MR-MainbyteLabs
